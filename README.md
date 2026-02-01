@@ -4,9 +4,7 @@ End to end ETL using AWS snowfl…
 
  It also supports reporting needs like revenue by product/region/facility and media usage/video visit analytics, plus forecasting and category comparisons. 
 
-Python code files I created for your repository
-
-I generated a ready-to-push starter repo that matches your deck’s architecture (extract → transform with Spark → load into Snowflake → QC/alerts), and is structured so you can extend it per dataset/product line:
+Python code files you can use:
 
 dags/media_usage_etl_dag.py (Airflow DAG: extract → spark-submit → Snowflake load → Slack notify)
 
